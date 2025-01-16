@@ -23,7 +23,7 @@ n = 70
  
 #read in data then split into train and test
  
-path = str('/mnt/data/mlops-best-practices/credit_card_default.csv')
+path = str('/mnt/artifacts/data/mlops-best-practices/credit_card_default.csv')
 data = pd.read_csv(path)
 print('Read in {} rows of data'.format(data.shape[0]))
   
